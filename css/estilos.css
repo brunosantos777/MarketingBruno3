@@ -34,6 +34,14 @@
     margin: 0 auto;
 }
 
+.titulos2{
+    width: fit-content;
+    color: rgb(255, 253, 253);
+    margin: 0 auto;
+
+}
+
+
 .sombra-card {
     box-shadow:  9px 7px 5px rgba(0, 0, 0, 0.77);
 
@@ -79,11 +87,22 @@
 
     #servicos{
         text-align:center; 
+        color: black;
+
+    }
+    #servicos2{
+        text-align:center; 
+        color: rgb(255, 255, 255);
 
     }
 
     #planos{
         text-align:center;  
+    }
+    #planos2{
+        text-align:center;
+        
+
     }
 
     #quem-somos{
@@ -92,11 +111,42 @@
 
     #contato{
         text-align: center;
-        color: white;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    #contato2{
+        text-align: center;
+        color: rgb(255, 255, 255);
         font-size: 20px;
     }
 
     #portifolio{
         text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    #portifolio2{
+        text-align: center;
+        color: white;
+    }
+
+    #botaoclarear{
+        position: center;
+        color: rgb(0, 0, 0);
+        background-color: rgba(252, 249, 249, 0.644);
+        margin-top: 50px;
+        margin-left: 75px;
+        
+    }
+    #botaoclarear2{
+        position: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(5, 5, 5);
+        margin-top: 50px;
+        margin-left: 75px;
+        border-color: transparent;
+        
+    }
+
+    #frm_cadastro2{
         color: white;
     }
