@@ -1,0 +1,102 @@
+/* estilos genéricos */
+.cinza-20{
+    background-color:#ccc
+   
+   }
+
+   .cinza-40{
+    background-color:#999
+   
+   }
+
+   .cinza-60{
+    background-color:#666
+   
+   }
+
+   .cinza-80{
+    background-color:#333;
+   
+   }
+
+
+/* estilos para o carousel */
+.carousel-caption h3, .carousel-caption p{
+    text-shadow: 3px 3px 5px #000;
+}
+.carousel-caption{
+    background-color:rgba(75, 63, 63, 0.6);
+}
+/* estilos para asa seções*/
+.titulos{
+    width: fit-content;
+    border-bottom: 7px rgba(41, 35, 35, 0.76) solid;
+    margin: 0 auto;
+}
+
+.sombra-card {
+    box-shadow:  9px 7px 5px rgba(0, 0, 0, 0.77);
+
+}
+
+.miniatura{
+    /* comportamento inline-block que continua semelhante
+    a texto porém reconhece margens e dimensões */
+    display: inline-block;
+    margin: 5px;
+}
+.miniatura img{
+    width: 150px;
+}
+
+/* ESTILO PARA A SETA SOBE */
+.seta-sobe{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+    
+    /* rodape da pagina */
+
+    .rodape {
+        text-align:center;
+        background-color: slategrey;
+        color: rgb(0, 0, 0);
+    text-shadow: 2px 0px 2px rgba(255, 255, 255, 0.787)
+    }
+
+    /*estilos fontes de titulos*/
+
+    #servicos{
+        text-align:center; 
+
+    }
+
+    #planos{
+        text-align:center;  
+    }
+
+    #quem-somos{
+        text-align: center;
+    }
+
+    #contato{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    #portifolio{
+        text-align: center;
+        color: white;
+    }
